@@ -136,7 +136,16 @@ button:hover{
     width:100%;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 500px) {
+
+    nav {
+        width: 70%;
+    }
+
+    .title-container div {
+        width: 100%;
+    }
+	 
     .artists-container{
         flex-direction: column;
     }
@@ -145,18 +154,19 @@ button:hover{
         width: auto;
     }
 
+    .title-container hr{
+        width:100%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    nav {
+        width: 60%;
+    }
+
     .title-container div {
         width: 100%;
     }
-
-    nav {
-        width: 50%;
-        margin-top:5%;
-    }
-    nav a {	
-        text-decoration: none;	
-        font-size:2rem;
-        padding: 2%;
-    }	
+   
 
 }
