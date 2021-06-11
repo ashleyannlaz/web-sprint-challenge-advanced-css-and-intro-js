@@ -302,8 +302,6 @@ function addArtist(array,id,nombre,y,g,na,b){
   }
 
   console.log("Task 6 " , addArtist(artists,20,'Ashley','1992-2021',"Web Design","American","Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse minima quis voluptatem aperiam eveniet dolor perspiciatis iure ullam cumque non consectetur, laudantium vel, quaerat modi odio iste fugit nihil voluptas?"))
-  
-  
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 7: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
 Use lotsOfArt to do the following: 
@@ -312,10 +310,16 @@ Use lotsOfArt to do the following:
 
 For example lotsOfArt(artists); will return ["Amedeo Modigliani", "Rene Magritte", ... "Albrecht Dürer"]*/
 
-function lotsOfArt(/*Your Code Here*/){
-  /*Your Code Here*/
+function lotsOfArt(array){
+  let newArray = [];
+  for(let i = 0; i < array.length; i++){
+    if(array[i].paintings > 100)
+    newArray.push(array[i].name)
+  }
+  return newArray
 }
 
+console.log("Task 7 " , lotsOfArt(artists))
 
 
 
