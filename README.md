@@ -23,11 +23,17 @@ Commit your code regularly and meaningfully.
 Please answer the following questions below, you may edit the readme file to include your answers below the question.
 
 1. How would you describe accessibility on the web to someone new to programming?
-    Accessibility 
+    Accessibility refers to making web pages more accessible to everyone no matter how they use your page. This takes into account where the page is being seen: mobile, tablets, or desktop computers and also takes into account any disabilities. We should be designing pages for everyone in mind including those with auditory, cognitive, neurological and physical disabilities. 
 2. Talk about 3 different things you can do to ensure your website is accessible. 
-    To make 
+    You can 1. use semantic HTML. Examples include <header>, <nav>, <button>, etc. These help browsers and screen readers make sense of the page.
+    2. use alt tags to describe images. This also helps people with screen readers or those who can't see your image to know what is displayed on the web page. 
+    3. Responsive Units is another thing you can do to help make the website more accessible as it allowed everything on the page to be scaled. For example, some people may increase or decrease the font size on a web page, but this is only possible if the CSS is scaleable. (rem, % or em)
 3. How would you explain the concept of a variable to someone new to programming?
+    A variable is like a container that holds a data value. You can use var, let and const to declare a value. 
+    For example, const name = ashley; 
+    The variable "name" stores the value "ashley". Const variables cannot be changed later on, whereas var and let can be reassigned a value. Its good practice to use let instead of var because it is blocked scoped, and VAR can lead to buggy code. 
 4. What is the purpose of using functions in code?
+    Functions allow you to define a block of code and then invoke it as many times as you need to. It's basically like a set of statements that accomplish a certain task. For example, if you want to write "Hello" 100 times on a page you could write a function that will write it for you instead of writing it in HTML 100 times. 
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
@@ -49,14 +55,14 @@ NOTE: Tests will run for the JavaScript portion of this challenge only
 
 *Before you jump in, take 10 minutes to review the code that has already been provided for you. Take time to see how the home page was built. During this time, [Review the provided design files](design/). You have been provided all content necessary in the [index.html file](index.html) and basic styling in the [index.css file](css/index.css).*
 
-* [ ] Add a viewport meta tag to the head of your index.html page.
-* [ ] Add responsive breakpoints to your code for 500px such that your styles match the [mobile design file](design/Mobile.png).
+* [x] Add a viewport meta tag to the head of your index.html page.
+* [x] Add responsive breakpoints to your code for 500px such that your styles match the [mobile design file](design/Mobile.png).
 
 ### Task 2b: Minimum Viable Product - JavaScript
 
 Navigate to `index.js` and complete the MVP challenges. Note that you need to scroll past data (or collapse data in VScode) to find the challenges below.
 
-### Task 3: Stretch Problems
+### Task 3: Stretch Problems 
 
 After finishing your required elements, you can push your work further. These goals may or may not be things you have learned in this module but they build on the material you just studied. Time allowing, stretch your limits and see if you can deliver on the following optional goals:
 
